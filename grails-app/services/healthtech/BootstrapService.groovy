@@ -11,7 +11,12 @@ class BootstrapService {
     Random random=new Random()
     String getRandomName() {
         int index= Math.abs(random.nextInt() % 150) + 1
-        return listOfNames[index]
+        if(listOfNames[index]){
+            return listOfNames[index]
+        }
+        else{
+            return null
+        }
     }
 
 
