@@ -30,11 +30,10 @@
 /web-app/plugins
 
 # "temporary" build files
-/target
+target
 *.idea
-grails-app/conf/hibernate/
-grails-app/utils/
 *.iml
 scripts/
 test/
 web-app/WEB-INF/tld
+*.slcache
