@@ -31,7 +31,7 @@
 
 # "temporary" build files
 /target
-.idea/
+*.idea
 grails-app/conf/hibernate/
 grails-app/utils/
 *.iml
