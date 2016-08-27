@@ -32,8 +32,6 @@
 # "temporary" build files
 target
 *.idea
-grails-app/conf/hibernate/
-grails-app/utils/
 *.iml
 scripts/
 test/
