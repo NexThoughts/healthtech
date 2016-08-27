@@ -8,6 +8,6 @@ class PublicController {
     def bootstrapService
 
     def index() {
-        render bootstrapService.getRandomName() 
+        render bootstrapService.getRandomName()
     }
 }
